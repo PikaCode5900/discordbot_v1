@@ -1,0 +1,42 @@
+Inicializar proyecto:
+>npm init -y
+SE creara el package.json, configura su descripción si quieres y revíselo
+Ir a NPM para instalar express
+>npm install express
+
+
+// NOTAS 
+// Iniciar proyecto node con: npm init
+// Esto es el package.json;
+// {
+//     "name": "firts-node-project", NOMBRE PROYECTO
+//     "version": "1.0.0", // x.y.z ; x = Mayor version ; y = Menor version ; z = Parches version
+//     "description": "Esto es mi primer proyecto de node",
+//     "main": "app.js",
+//     "scripts": {
+//          "ejecutar": "node src/app.js" // CON "npm run ejecutar"
+//               o
+//          "start": "node src/app.js" // CON "npm start"    
+//          "dev": "nodemon src/app.js" // MUY RECOMENDABLE CON "npm run dev" o "nodemon archivo.js"
+                                        // PROBAR MODULOS "npx paquete instruccion"
+//     },
+//     "keywords": [
+//       "node",
+//       "primer",
+//       "proyecto"
+//     ],
+//     "author": "elPatatero",
+//     "license": "ISC"                                       i = install                                          un = unistall
+//     "dependencies": {     // INSTALAMOS PAQUETES CON "npm i paquete paquete1 paquete2 ..." DESINSTALAMOS CON "npm un paquetes paquete paquete1 paquete2 ..."
+//        "colors": "^1.4.0" //    ESTO ^ PARA BAJAR v EXACTA, INSTALAR POR VERSION "npm install paquete@v.x.x"
+//      },
+//     "devDependencies": {  // INSTALAMOS DEPENDENCIAS DE DESARROLLO CON "npm i paquete -D"
+                             // DESISNTALAMOS CON "npm remove paquete"
+                             // MOVER A DEPENDENCIA "npm i paquete -D" DE IGUAL YA ESTE INSTALADO NORMAL
+//      "nodemon": "^2.0.20" // RECOMENDABLE INSTALAR ESTE PAQUETE
+//     }
+//   } // HERRAMIENTA PARA PROYECTOS >npm install -g npm-check , usarlo con >npm-check
+
+//
+// Info semver: https://semver.org/lang/es/
+// Info versiones semver: https://semver.npmjs.com/
